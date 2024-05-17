@@ -240,7 +240,7 @@ export default function Home() {
           <ul className="mx-auto mt-12 max-w-prose sm:text-lg space-y-2 space-fit">
             <li className="w-fit">
               <Check className="h-5 w-5 text-green-600 inline mr-1.5" />
-              High-quality sillicone material
+              High-quality silicone material
             </li>
             <li className="w-fit">
               <Check className="h-5 w-5 text-green-600 inline mr-1.5" />
