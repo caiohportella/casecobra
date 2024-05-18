@@ -7,7 +7,7 @@ export const getPaymentStatus = async ({ orderId }: { orderId: string }) => {
   const { getUser } = getKindeServerSession();
   const user = await getUser();
 
-  if (!user?.id || user.email) throw new Error("User not found");
+  if (!user?.id || !user.email) throw new Error("User not found");
 
   const order = await db.order.findFirst({
     where: {
